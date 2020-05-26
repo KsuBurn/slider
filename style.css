@@ -150,12 +150,12 @@ body {
 
     .inner {
         /* ширина картинки */
-        width: 250px;
+        width: 240px;
     }
 
     .slider__picture {
         /* ширина картинки */
-        width: 250px;
+        width: 240px;
         margin: auto;
         height: auto;
     }
