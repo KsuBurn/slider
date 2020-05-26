@@ -3,6 +3,11 @@ body {
     margin: 0 auto;
 }
 
+.slider_bl {
+    width: 97%;
+    margin: 0 auto;
+}
+
 .wrapper {
     width: 100%;
     display: flex;
