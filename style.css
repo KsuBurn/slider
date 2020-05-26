@@ -4,6 +4,7 @@ body {
 }
 
 .wrapper {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,26 +30,19 @@ body {
 
 .button {
     /* Размер стрелок */
-    width: 50px;
-    height: 50px;
-    /*  Цвет и толщина стрелок */
-    /*border-top: 6px solid #6E18C0;*/
-    /*border-right: 6px solid #6E18C0;*/
+    /*width: 50px;*/
+    /*height: 100%;*/
+    /*  Цвет  стрелок */
     fill:#6E18C0 ;
     border: none;
-    /*border-bottom: none;*/
-    /*border-left: none;*/
     background: none;
-}
-
-.next-button{
-    /*transform: rotate(45deg);*/
     outline: none;
 }
 
-.prew-button {
-    /*transform: rotate(-135deg);*/
-    outline: none;
+.prew-button,
+.next-button {
+    width: 50px;
+    height: 50px;
 }
 
 .next-button:hover,
@@ -120,9 +114,6 @@ body {
         /* Размер стрелок */
         width: 40px;
         height: 40px;
-        /*  Цвет и толщина стрелок */
-        /*border-top: 5px solid #6E18C0;*/
-        /*border-right: 5px solid #6E18C0;*/
     }
 }
 
@@ -165,11 +156,8 @@ body {
 
     .button {
         /* Размер стрелок */
-        width: 35px;
-        height: 35px;
-        /*  Цвет и толщина стрелок */
-        /*border-top: 4px solid #6E18C0;*/
-        /*border-right: 4px solid #6E18C0;*/
+        width: 40px;
+        height: 40px;
     }
 
 }
