@@ -162,11 +162,11 @@ body {
 
     .button {
         /* Размер стрелок */
-        width: 15px;
-        height: 15px;
+        width: 16px;
+        height: 16px;
         /*  Цвет и толщина стрелок */
-        border-top: 5px solid #6E18C0;
-        border-right: 5px solid #6E18C0;
+        border-top: 4px solid #6E18C0;
+        border-right: 4px solid #6E18C0;
     }
 
 }
