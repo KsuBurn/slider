@@ -1,5 +1,6 @@
 body {
-    min-width: 375px;
+    min-width: 370px;
+    margin: 0 auto;
 }
 
 .wrapper {
