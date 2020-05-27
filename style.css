@@ -115,7 +115,8 @@ body {
         margin: auto;
         height: auto;
     }
-    .button {
+    .prew-button,
+    .next-button {
         /* Размер стрелок */
         width: 40px;
         height: 40px;
@@ -159,7 +160,8 @@ body {
         height: auto;
     }
 
-    .button {
+    .prew-button,
+    .next-button {
         /* Размер стрелок */
         width: 37px;
         height: 37px;
